@@ -10,10 +10,10 @@
 	</js-module>
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="plugins">
-		  <plugin name="Mint" value="br.com.infobase.cordova.mint.MintPlugin"/>
+		  <plugin name="Mint" value="br.com.infobase.cordova.MintPlugin"/>
 		</config-file>
 
-		<source-file src="src/android/br/com/infobase/cordova/mint/MintPlugin.java" target-dir="src/br/com/infobase/cordova/mint" />
+		<source-file src="src/android/br/com/infobase/cordova/MintPlugin.java" target-dir="src/br/com/infobase/cordova" />
 		<source-file src="lib/splunk-mint/splunk-mint-4.0.6.jar" target-dir="libs" framework="yes"/>
 	</platform>
 </plugin>
